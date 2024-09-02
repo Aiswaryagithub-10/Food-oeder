@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food</title>
+    <link rel="icon" href="food1.jpg">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Macondo&display=swap" rel="stylesheet">
+
+    <style>
+        /* Container with background image */
+        .background-container {
+            position: relative;
+            height: 100vh;
+            background-image: url("foodbg.jpg");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+
+        /* Overlay */
+        .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            /* Semi-transparent black overlay */
+            z-index: 5;
+            /* Ensure the overlay stays on top of the background image */
+        }
+
+        /* Content on top of the overlay */
+        .content {
+            position: relative;
+            z-index: 150;
+            /* Ensure content is above the overlay */
+            color: white;
+            text-align: center;
+            top: 40%;
+            transform: translateY(-50%);
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="background-container">
+            <div class="overlay"></div>
+            <div class="content">
+
+                <h1 class="head">Food Street</h1>
+                <!--Navigation-->
+                <div class="nav">
+                    <h3>Home |</h3>
+                    <h3>Menu |</h3>
+                    <h3>Contact </h3>
+                </div>
+                <div class="item">
+                    <div class="f1">
+                        <img src="maggie.jpg" alt="maggie" class="f1-img">
+                        <h4 class="f1_title"> Italian Maggie</h4>
+                        <p class="f1__para"> Somthing which is very delicious</p>
+                        <button class="btn">Order</button>
+                    </div>
+
+                    <div class="f2">
+                        <img src="pasta.jpeg" alt="pasta" class="f2-img">
+                        <h4 class="f1_title"> Spaghetti</h4>
+                        <p class="f1__para"> Somthing which is very delicious</p>
+                        <button class="btn">Order</button>
+                    </div>
+                    <div class="f3">
+                        <img src="burger.jpg" alt="burger" class="f3-img">
+                        <h4 class="f1_title"> Urdaburger</h4>
+                        <p class="f1__para"> Somthing which is very delicious</p>
+                        <button class="btn">Order</button>
+                    </div>
+                </div>
+                <div class="contact">
+                    <h1 class="header">Contact Us</h1>
+                    <form>
+                        <table class="details">
+                            <tr class="n1">
+                                <td>Name: </td>
+                                <td><input type="text" placeholder="Enter Your name"></td>
+                            </tr>
+                            <tr class="n2">
+                                <td>Address</td>
+                                <td><input type="message" placeholder="Enter your Address"></td>
+                            </tr>
+                            <tr class="n3">
+                                <td>Email: </td>
+                                <td><input type="email" placeholder="Email"></td>
+                            </tr>
+                            <tr class="n4">
+                                <td>Phone: </td>
+                                <td><input type="number" placeholder="Enter you number"></td>
+                            </tr>
+                        </table>
+                    </form>
+                    <button class="btn1">Send</button>
+                </div>
+            </div>
+        </div>
+</body>
+
+</html>

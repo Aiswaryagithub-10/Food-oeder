@@ -1,0 +1,118 @@
+  /* General Styles */
+  * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Macondo", cursive;
+  }
+
+  /* Background Image and Container Styles */
+  body {
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      height: 100vh;
+      position: relative;
+
+  }
+
+  /* Header */
+  .head {
+      text-align: center;
+      margin-top: 5px;
+      padding-top: 150px;
+  }
+
+  /* Navigation Styles */
+  .nav {
+      padding: 10px;
+      display: flex;
+      justify-content: center;
+      border-bottom: solid 2px black;
+      background-color: rgba(236, 232, 213, 0.2);
+      color: black;
+      gap: 15px;
+  }
+
+  /* Food Items Container */
+  .item {
+      display: flex;
+      justify-content: space-evenly;
+      margin-top: 20px;
+      flex-wrap: wrap;
+  }
+
+  /* Food Item Styles */
+  .f1,
+  .f2,
+  .f3 {
+      display: flex;
+      flex-direction: column;
+      width: 15%;
+      margin: 20px;
+      padding: 10px;
+      background-color: rgba(182, 210, 233, 0.8);
+      /* Light background for better readability */
+      border-style: solid black 6px;
+  }
+
+  .f1-img,
+  .f2-img,
+  .f3-img {
+      width: 100%;
+      height: 150px;
+      border-radius: 8px;
+      opacity: 5.0;
+  }
+
+  .f1-para1,
+  .f2-para2,
+  .f3-para3,
+  {
+  margin-top: 10px;
+  font-size: 1.2rem;
+  }
+
+  .btn {
+      background-color: black;
+      color: antiquewhite;
+      border-style: solid 5px black;
+      padding: 3px;
+      border-radius: 8px;
+      font-size: medium;
+  }
+
+  .btn:hover {
+      background-color: rgb(233, 249, 194);
+      color: rgb(0, 0, 0);
+      font-size: large;
+  }
+
+  .details {
+      font-size: 20px;
+      color: white;
+      margin-left: 43%;
+      padding: 5px;
+  }
+
+  .n1,
+  .n2,
+  .n3,
+  .n4 {
+      line-height: 30px;
+  }
+
+  .contact {
+      background-color: rgb(13, 13, 13);
+      padding: 5px;
+  }
+
+  .btn1 {
+      padding: 3px;
+      margin: 10px;
+  }  
+  .btn1:hover{
+    background-color: rgb(201, 255, 66);
+    color: rgb(0, 0, 0);
+    font-size: large;
+}
